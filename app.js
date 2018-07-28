@@ -63,35 +63,76 @@
 
 // Data types in JAVASCRIPT
     //Primitive
-        /* //String
-        const name = 'John Wick';
-        console.log(typeof name);
+        //String
+        /* const name = 'John Wick';
+        console.log(typeof name); */
         //Number
-        const age = 27;
-        console.log(typeof age);
+        /* const age = 27;
+        console.log(typeof age); */
         //Boolean
-        const hasKids = true;
-        console.log(typeof hasKids);
+        /* const hasKids = true;
+        console.log(typeof hasKids); */
         //Null
-        const car = null;
-        console.log(typeof car);
+        /* const car = null;
+        console.log(typeof car); */
         //Undefined
-        let test;
-        console.log(typeof test);
+        /* let test;
+        console.log(typeof test); */
         //Reference Types - Objects
         //Array
-        const Hobbies = ['Movies', 'Gaming'];
-        console.log(typeof Hobbies);
+        /* const Hobbies = ['Movies', 'Gaming'];
+        console.log(typeof Hobbies); */
         //Object Literal
-        const address={
+        /* const address={
             city:'İzmir',
             state:'Republic'
         }
         console.log(typeof address);
         const today = new Date();
-        console.log(typeof today); */
+        console.log(typeof today);  */
 // End Of The Lecture.
 
 // Lecture Type Conversion
-        
+
+    /* let val;
+    let _number; */
+    // Number to string.
+        /* val=String(5); */
+    // Bool to string
+        /* val=String(true); */
+    // Date to string
+        /* val = String(new Date()); */
+    // Array to string
+       /*  val = String([1,2,3,4]); */
     
+    // toString()
+        /* val = (10).toString();
+        val = (true).toString(); */
+
+    // String to number
+       /*  _number =Number('23.010101');
+        _number =Number(true);
+        _number =Number(false);
+        _number =Number(null);
+        _number =Number('Hello');
+        _number =Number([1,2,3]);
+
+        _number = parseInt('100');
+        _number = parseFloat('100.45');
+
+        var addition1 = String(5);
+        var addition2 = 6;
+        var sum = addition1 + addition2; */
+        
+    //Output
+       /*  console.log(val);
+        console.log(typeof val);
+        console.log(val.length);
+        console.log(typeof _number);
+        console.log(_number); // _number.tofixed(2) two digits after dot.
+        console.log(sum); */
+
+//End Of The Lecture.
+
+//Numbers & Math Object
+
